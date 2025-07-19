@@ -1,5 +1,5 @@
 function countOccurrences(str, char) {
-    return str.split(char).length - 1;
+    return str.toLowerCase().split(char.toLowerCase()).length - 1;
   }
   
   // Example
